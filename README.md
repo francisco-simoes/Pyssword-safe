@@ -24,7 +24,8 @@ The encryption is simple and is certainly not good enough for very sensitive inf
 
 To encrypt a password, one first takes the unicode of the first character of the password (say "Ihatepasswords92"), adds the unicode of the first character of the key (say simply "key") and squares the result, and finally recovers the character corresponding to that unicode. This encrypts the first letter of the password. We keep doing this until we have encrypted the entire password, cycling through the key if necessary (*i.e.* if the password is longer than the key).
 
-Here is the scheme of the encryption for the second letter of the passort "Ihatepasswords92" with the key "hey":
+Here is the scheme of the encryption for the second letter of the passort "Ihatepasswords92" with the key "key":
+![](images/encryption_pyssword.png)
 
 The decryption simply undoes this.
 
@@ -32,5 +33,5 @@ The decryption simply undoes this.
 
 The UI is minimalistic. 
 The program runs in the terminal, and we can choose wether we want to save, find or delete passwords by writing characters.
-
+![](images/UI_pyssword.png)
 
