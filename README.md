@@ -16,7 +16,7 @@ You need to have a file named `storage.txt` in the same folder as the script `Py
 Furthermore, the first time you run the script the `storage.txt` must contain the string "{}".   
 This is already done for you if you just download the folder "Pyssword".
 
-To use Pyssword, simply execute the Python script as usual writing `Python3 Pyssword.py` in the terminal, when in the correct folder.
+To use Pyssword, simply execute the Python script as usual writing `python3 Pyssword.py` in the terminal, inside the correct folder.
 
 # The encryption
 
