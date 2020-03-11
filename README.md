@@ -18,7 +18,7 @@ This is already done for you if you just download the folder "Pyssword".
 
 To use Pyssword, simply execute the Python script as usual writing `python3 Pyssword.py` in the terminal, inside the correct folder.
 
-# The encryption
+## The encryption
 
 The encryption is simple and is certainly not good enough for very sensitive information, but probably enough to store some passwords in your personal hard disk.
 
@@ -29,9 +29,13 @@ Here is the scheme of the encryption for the second letter of the passort "Ihate
 
 The decryption simply undoes this.
 
-# UI
+## UI
 
 The UI is minimalistic. 
 The program runs in the terminal, and we can choose wether we want to save, find or delete passwords by writing characters.
 ![](images/UI_pyssword.png)
+
+## Features to add next:
+- Save usernames and passwords, not just passwords.
+- Add a help ('h') mode, instead of having a verbose greeting message.
 
